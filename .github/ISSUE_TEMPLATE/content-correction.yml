@@ -1,0 +1,50 @@
+name: Content correction
+description: Report a factual, technical, calculation or wording issue in the handbook.
+title: "Correction: "
+labels:
+  - correction
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Edition and version
+      placeholder: "First public edition, version 1.0"
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Page and route ID
+      placeholder: "Page 42, [SAP-MM]"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current wording or result
+      description: Quote only the smallest passage needed to identify the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and practical consequence
+      description: Provide an official source, standard, or reproducible example when applicable. Do not include confidential data.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Submission check
+      options:
+        - label: I have removed confidential, personal and proprietary information.
+          required: true
+        - label: I have the right to share the submitted material under the repository license.
+          required: true
+

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If this handbook helps your work, please cite it using the information below."
+title: "Supply Chain Management Expert Field Handbook: Enterprise Systems Edition"
+type: book
+authors:
+  - family-names: "Murukutla"
+    given-names: "Sri Sai Lakshmi Ganesh"
+version: "1.0"
+date-released: "2026-10-21"
+license: CC-BY-NC-SA-4.0
+repository-code: "https://github.com/SriMurukutla/supply-chain-management-field-handbook"
+url: "https://github.com/SriMurukutla/supply-chain-management-field-handbook"
+abstract: >-
+  A practical field reference covering end-to-end supply chain operations,
+  finance, enterprise systems, analytics, implementation, migration,
+  troubleshooting and research-to-practice methods.
+keywords:
+  - supply chain management
+  - procurement
+  - inventory
+  - warehousing
+  - logistics
+  - manufacturing
+  - SAP
+  - QuickBooks
+  - Excel
+  - SQL
+  - Power BI
+  - Databricks
+  - Snowflake
+
